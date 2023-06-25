@@ -12,6 +12,7 @@
     <p>Enter details here below:</p>
     <form action="{% url 'result' %}">
         {% csrf_token %}
+        <p>Fill below details and get prediction on your Car Budget</p>
         <p>Pclass</p>
         <input type="text" name="pclass">
         <p>Sex</p>
